@@ -43,7 +43,7 @@ export class MevBotComponent {
   );
 
   @Input() set trade(trade: CrossChainTrade | OnChainTrade) {
-    const minDollarAmountToDisplay = 1000;
+    const minDollarAmountToDisplay = 0.01;
     const amount = trade?.from.price.multipliedBy(trade?.from.tokenAmount);
 
     this.routingForm = (trade?.from.blockchain === trade?.to.blockchain
