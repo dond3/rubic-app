@@ -16,4 +16,4 @@ Rubic's goal is to add multichain p2p trades to existing services and develop ot
 
 [Read One Pager](https://rubic.exchange/assets/pdf/OnePager.pdf)
 
-First commit;;
+fork! from rubic.app;
